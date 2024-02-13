@@ -114,3 +114,16 @@ console.log(po);
 
 console.log(po.splice(3));//102,8,6,7 it will print at index 3 to end and delete this elements
 console.log(po.slice()); // No change 1,2,101
+
+//question: create an array to store companies->"Bloomber","Microsoft","Uber","Google","Ibm","Netflix"
+//1)Remove the first company from the array
+//2)remove uber & add ola in it place
+//3) add amazon at the end
+let comapnies = ["Bloomber","Microsoft","Uber","Google","Ibm","Netflix"];
+comapnies.shift();
+console.log(comapnies);//removed first company
+comapnies.splice(1,1,"Ola")
+console.log(comapnies);//removed uber and added ola
+comapnies.push("Amazon");
+console.log(comapnies);//add amazon at the end
+
