@@ -36,3 +36,4 @@ function sum(x,y){
 let x=3;
 let y=10;
 console.log(sum(x,y));
+
