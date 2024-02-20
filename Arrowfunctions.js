@@ -165,8 +165,29 @@ console.log(output);//where prev will start from 1 and current is 2 and the ans 
 
 //practice:
 //Q: we are givn array of marks of students. Filter our of the marks of students that scored 90+.
-
+let stumarks = [22,90,97,100,89];
+let result = stumarks.filter((mar)=>{
+    return mar>=90;
+});
+console.log(result);
 
 //Q:Take a number n as input from useer. create an array of number from 1 to n.
 //use reduce method to calculate sum of all numbers in the array.
 // use the reduce method to calculate product of all the number in the array.
+
+let e = prompt("Enter a number :")
+let summ=[];
+for(let i=1;i<=e;i++){
+    summ[i-1]=i;
+}
+console.log(summ);
+
+let sum1 = summ.reduce((re,cu)=>{
+    return re+cu;
+})
+console.log(sum1);
+
+let mul = summ.reduce((r,c)=>{
+    return r*c;
+})
+console.log(mul)
