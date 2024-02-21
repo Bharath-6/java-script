@@ -1,3 +1,10 @@
+/* if you want give bases on id styling you can use #heading{
+
+} */
+
+/* .heading-class{ representing class
+
+} */
 h1{
     color:blue;
     background-color: yellow;
